@@ -26,13 +26,26 @@ with open(filename, newline = '') as csvfile:
     for row in reader:
         rows.append(row[0].split(';'))
 
-print(rows)
 
 n_rows = len(rows)
 n_cols = max([len(row) for row in rows])
     
-out = "\\begin{table}[H]\n\\centering\n\\begin{tabular}{" 
+out = "\\begin{table}[H]\n"
+out += "\\centering\n\\begin{tabular}{" 
 out += "|c" * n_cols 
 out += "|}\n\\hline\n"
-out += " TODO &" * (n_cols-1) 
+out += "TODO & " * (n_cols-1) + "TODO \\\\ \\hline\n"
+for row in rows:
+    for el in row[:-1]:
+        out += el + " & "
+    out += row[-1]
+    out += " \\\\ \\hline \n"
+
+out += "\\end{tabular}\n"
+out += "\\caption{TODO}\n"
+out += "\\label{tab:TODO}\n"
+out += "\\end{table}"
+
+with open("output.txt", "w") as f_out:
+    f_out.write(out)
 print(out)

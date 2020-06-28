@@ -1,0 +1,54 @@
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+TODO & TODO \\ \hline
+0 & 0,5452 \\ \hline 
+5 & 0,6096 \\ \hline 
+10 & 0,6324 \\ \hline 
+15 & 0,6121 \\ \hline 
+20 & 0,55 \\ \hline 
+25 & 0,4504 \\ \hline 
+30 & 0,32 \\ \hline 
+35 & 0,1678 \\ \hline 
+40 & 0,004127 \\ \hline 
+45 & 0,1598 \\ \hline 
+50 & 0,3128 \\ \hline 
+55 & 0,4445 \\ \hline 
+60 & 0,5459 \\ \hline 
+65 & 0,61 \\ \hline 
+70 & 0,6324 \\ \hline 
+75 & 0,6118 \\ \hline 
+80 & 0,5493 \\ \hline 
+85 & 0,4494 \\ \hline 
+90 & 0,3188 \\ \hline 
+95 & 0,1665 \\ \hline 
+100 & 0,002751 \\ \hline 
+105 & 0,1611 \\ \hline 
+110 & 0,314 \\ \hline 
+115 & 0,4455 \\ \hline 
+120 & 0,5466 \\ \hline 
+125 & 0,6103 \\ \hline 
+130 & 0,6325 \\ \hline 
+135 & 0,6114 \\ \hline 
+140 & 0,5486 \\ \hline 
+145 & 0,4484 \\ \hline 
+150 & 0,3176 \\ \hline 
+155 & 0,1651 \\ \hline 
+160 & 0,001376 \\ \hline 
+165 & 0,1625 \\ \hline 
+170 & 0,3152 \\ \hline 
+175 & 0,4465 \\ \hline 
+180 & 0,5473 \\ \hline 
+185 & 0,6107 \\ \hline 
+190 & 0,6325 \\ \hline 
+195 & 0,6111 \\ \hline 
+200 & 0,548 \\ \hline 
+205 & 0,4475 \\ \hline 
+210 & 0,3164 \\ \hline 
+215 & 0,1638 \\ \hline 
+220 & 1,27E-08 \\ \hline 
+\end{tabular}
+\caption{TODO}
+\label{tab:TODO}
+\end{table}
